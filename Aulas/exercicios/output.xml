@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20230808 19:10:40.600" rpa="false" schemaversion="4">
+<suite id="s1" name="Exercicio 2" source="C:\Users\Fabricio Perrone\Documents\Prime control QA\robot\Aulas\exercicios\exercicio_2.robot">
+<test id="s1-t1" name="Exibir os dados de uma pessoa no Console" line="10">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 19:10:40.735" endtime="20230808 19:10:40.739"/>
+</kw>
+<kw name="Exibir o dicionario no Console">
+<kw name="Log To Console" library="BuiltIn">
+<arg>Dados da Pessoa:</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 19:10:40.741" endtime="20230808 19:10:40.748"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Nome: ${PESSOA.nome}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 19:10:40.770" endtime="20230808 19:10:40.801"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Nome: ${PESSOA.sobrenome}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 19:10:40.802" endtime="20230808 19:10:40.820"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>Nome: ${PESSOA.idade}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 19:10:40.821" endtime="20230808 19:10:40.824"/>
+</kw>
+<status status="PASS" starttime="20230808 19:10:40.741" endtime="20230808 19:10:40.833"/>
+</kw>
+<status status="PASS" starttime="20230808 19:10:40.733" endtime="20230808 19:10:40.834"/>
+</test>
+<test id="s1-t2" name="Exibir a lista de frutas adicionadas a lista" line="14">
+<kw name="Log To Console" library="BuiltIn">
+<arg>\n</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 19:10:40.838" endtime="20230808 19:10:40.842"/>
+</kw>
+<kw name="Exibir cada uma das frutas">
+<kw name="Log To Console" library="BuiltIn">
+<arg>${FRUTAS}[0]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 19:10:40.857" endtime="20230808 19:10:40.864"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${FRUTAS}[1]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 19:10:40.864" endtime="20230808 19:10:40.880"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${FRUTAS}[2]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 19:10:40.882" endtime="20230808 19:10:40.891"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${FRUTAS}[3]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 19:10:40.892" endtime="20230808 19:10:40.895"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${FRUTAS}[4]</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230808 19:10:40.896" endtime="20230808 19:10:40.897"/>
+</kw>
+<status status="PASS" starttime="20230808 19:10:40.857" endtime="20230808 19:10:40.897"/>
+</kw>
+<status status="PASS" starttime="20230808 19:10:40.837" endtime="20230808 19:10:40.898"/>
+</test>
+<status status="PASS" starttime="20230808 19:10:40.603" endtime="20230808 19:10:40.904"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="2" fail="0" skip="0" id="s1" name="Exercicio 2">Exercicio 2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
